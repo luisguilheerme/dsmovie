@@ -7,14 +7,14 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 public class ScoreServiceTests {
-	
+
 	@InjectMocks
 	private ScoreService service;
-	
+
 	@Test
 	public void saveScoreShouldReturnMovieDTO() {
 	}
-	
+
 	@Test
 	public void saveScoreShouldThrowResourceNotFoundExceptionWhenNonExistingMovieId() {
 	}
